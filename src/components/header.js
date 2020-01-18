@@ -4,6 +4,8 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { Link } from 'gatsby';
 
+
+//a styled component example
 const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
@@ -31,7 +33,7 @@ const Header = () => (
     `}
   >
     <NavLink to="/" fontWeight="bold">
-      FEM Workshop
+      Gatsby 101!
     </NavLink>
     <nav
       css={css`
