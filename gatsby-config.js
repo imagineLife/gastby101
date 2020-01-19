@@ -4,5 +4,8 @@ module.exports = {
     description:
       'A site built from the inspiration of Jason Lengstorf',
   },
-  plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
+  plugins: [
+  	'gatsby-plugin-emotion', 
+  	'gatsby-plugin-react-helmet'
+  ],
 };
