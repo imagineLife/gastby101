@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { css } from '@emotion/core'
 
-const Wvae = () => {
+const Wave = () => {
 	const [waves, setWaves] = useState(0)
 	const label = `👋 ${waves} ${waves === 1 ? 'wave' : 'waves'} `
 
@@ -12,6 +12,7 @@ const Wvae = () => {
 				border: none;
 				color: white;
 				font-size: 1.25rem;
+				cursor: pointer;
 			`}
 			onClick={() => setWaves(waves + 1)}
 		>
@@ -19,3 +20,5 @@ const Wvae = () => {
 		</button>
 	)
 }
+
+export default Wave;
