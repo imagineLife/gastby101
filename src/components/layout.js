@@ -5,6 +5,7 @@ import Header from './header';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
 const Layout = ({ children }) => {
+  
   const { title, description } = useSiteMetadata();
 
   return (
